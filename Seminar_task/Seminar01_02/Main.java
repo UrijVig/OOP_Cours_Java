@@ -1,4 +1,4 @@
-package Seminar_task.Seminar01;
+package Seminar_task.Seminar01_02;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,5 +30,14 @@ public  class Main {
         System.out.println(animalList);
 
         cat.hunt();
+
+        VetClinica clinica = new VetClinica();
+        clinica.addNewAnimal(barsik).addNewAnimal(dog).addNewAnimal(new Cat());
+
+//        for (Animal animal: clinica.getPacient()) {
+//            animal.ill();
+//        }
+
+
     }
 }

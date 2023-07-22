@@ -1,6 +1,6 @@
-package Seminar_task.Seminar01;
+package Seminar_task.Seminar01_02;
 
-public class Animal {
+public class Animal{
     protected String nameAnimal;
     protected String ownerName;
     protected String diagnosis;
@@ -16,7 +16,9 @@ public class Animal {
 
     public Animal() {
     }
-
+    public String getNameAnimal() {
+        return nameAnimal;
+    }
     public boolean isVaccinated() {
         return this.isVaccinated;
     }
@@ -33,4 +35,5 @@ public class Animal {
     public String toString() {
         return String.format("%S{name = %s, owner = %s}", TYPE, nameAnimal, ownerName);
     }
+
 }
