@@ -1,6 +1,11 @@
 package Home_task.home_03;
 import Seminar_task.Seminar01_02_03.*;
 
+//Необходимые классы:
+//https://github.com/UrijVig/OOP_Cours_Java/blob/main/Seminar_task/Seminar01_02_03/Pharmacy.java
+//https://github.com/UrijVig/OOP_Cours_Java/blob/main/Seminar_task/Seminar01_02_03/Component.java
+//https://github.com/UrijVig/OOP_Cours_Java/blob/main/Seminar_task/Seminar01_02_03/ComponentIterator.java
+
 import java.util.*;
 
 public class Main {
