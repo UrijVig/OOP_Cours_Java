@@ -1,4 +1,4 @@
-package Seminar_task.Seminar01_02;
+package Seminar_task.Seminar01_02_03;
 public class Cat extends Animal {
     private int countPaws;
 
