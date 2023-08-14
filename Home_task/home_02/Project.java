@@ -35,7 +35,7 @@ public class Project {
         clinicaSunDay.addNewPerson(doctor);
         clinicaSunDay.addNewPerson(nurse);
         for (int i = 0; i < 10; i++) {
-            switch (random.nextInt(0, 6)) {
+            switch (random.nextInt(6)) {
                 case (1):
                     clinicaSunDay.addNewAnimal(new Cat());
                     break;
@@ -57,8 +57,9 @@ public class Project {
                 default:
                     break;
             }
-            animalName = animalNames.get(random.nextInt(0, animalNames.size()));
-            ownerName = ownersNames.get(random.nextInt(0, ownersNames.size()));
+
+            animalName = animalNames.get(random.nextInt(animalNames.size()));
+            ownerName = ownersNames.get(random.nextInt(ownersNames.size()));
             animal = clinicaSunDay.getPatient().get(i);
 
             nurse.createNewPatient(animalName, ownerName, animal);

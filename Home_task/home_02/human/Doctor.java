@@ -13,14 +13,14 @@ public class Doctor extends Human {
 
     public void checkup(Animal animal) {
         Random random = new Random();
-        int result = random.nextInt(0, 2);
+        int result = random.nextInt(2);
         if (result != 0) animal.setIsIll(true);
     }
 
     public void heal(Animal animal, Nurse nurse) {
         if (animal.getIsIll()) {
             Random random = new Random();
-            int result = random.nextInt(0, 3);
+            int result = random.nextInt(3);
             if (result != 0) {
                 this.needHelp = true;
                 if (!nurse.getEmployment()) {

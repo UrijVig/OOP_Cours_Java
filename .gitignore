@@ -122,6 +122,7 @@ modules.xml
 
 # Log file
 *.log
+*.txt
 
 # BlueJ files
 *.ctxt
